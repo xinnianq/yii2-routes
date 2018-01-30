@@ -4,5 +4,8 @@
    "require" : {
     "php" : ">=5.6.0",
     "yiisoft/yii2" : "*"
-  }
+  },
+	"autoload": {
+	    "psr-4": { "xinnianq\\yii2Routes\\": "" }
+	}
 }
