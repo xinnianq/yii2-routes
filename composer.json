@@ -7,5 +7,6 @@
   },
 	"autoload": {
 	    "psr-4": { "xinnianq\\yii2Routes\\": "" }
-	}
+	},
+	"minimum-stability" : "dev"
 }
