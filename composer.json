@@ -1,0 +1,8 @@
+{	
+  "name" : "xinnianq/yii2-routes",
+  "description" : "get yii2 routes for auth controller",
+   "require" : {
+    "php" : ">=5.6.0",
+    "yiisoft/yii2" : "*",
+  },
+}
