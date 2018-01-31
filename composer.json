@@ -1,12 +1,21 @@
 {	
-  "name" : "xinnianq/yii2-routes",
-  "description" : "get yii2 routes for auth controller",
-   "require" : {
-    "php" : ">=5.6.0",
-    "yiisoft/yii2" : "*"
-  },
-	"autoload": {
-	    "psr-4": { "xinnianq\\yii2Routes\\": "" }
+	"name" : "xinnianq/yii2-routes",
+	"description" : "get yii2 routes for auth controller",
+	"license": "Unlicense",
+    "keywords": [
+        "php", "yii2", "yii2Routes"
+    ],
+    "authors": [
+        {
+            "name": "xinnianq"
+        }
+    ],
+	"require" : {
+		"php" : ">=5.6.0",
 	},
-	"minimum-stability" : "dev"
+	"autoload": {
+		"psr-4": {
+            "xinnianq\\yii2Routes": "xinnianq\\yii2Routes"
+        }
+	}
 }
