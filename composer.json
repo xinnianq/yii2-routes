@@ -15,7 +15,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-            "xinnianq\\yii2Routes\\": "/src"
+            "xinnianq\\yii2Routes\\": "src"
         }
 	}
 }

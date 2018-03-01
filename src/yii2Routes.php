@@ -7,7 +7,7 @@ namespace xinnainq\yii2Routes;
 
 use Yii;
 
-class yii2Routes {
+class Routes {
 
     /**
      * Get list of application routes [获取应用的所有路由]
