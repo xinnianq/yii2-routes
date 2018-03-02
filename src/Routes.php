@@ -9,6 +9,7 @@ use Yii;
 
 class Routes {
 
+	
     /**
      * Get list of application routes [获取应用的所有路由]
      * @return array
