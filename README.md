@@ -6,9 +6,9 @@ php composer.phar require xinnianq/yii2-routes dev-master
 
 使用：
 
-use xinnainq\yii2Routes\yii2Routes;
+use xinnianq\yii2Routes\Routes;
 
-$yiiRoutes = yii2Routes::getAppRoutes();
+$yiiRoutes = Routes::getAppRoutes();
 
 var_dump($yiiRoutes);
 

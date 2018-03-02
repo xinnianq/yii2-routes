@@ -3,7 +3,7 @@
  * 获取所有路由
  * @author fengqiquan 2017-10-11
  */
-namespace xinnainq\yii2Routes;
+namespace xinnianq\yii2Routes;
 
 use Yii;
 
