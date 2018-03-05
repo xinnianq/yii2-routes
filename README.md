@@ -4,11 +4,19 @@
 ## 安装说明
 php composer.phar require xinnianq/yii2-routes @dev
 
-### 使用：
+### 使用1(获取所有路由)：
 <pre><code>
 use xinnianq\yii2Routes\Routes;
 
 $yiiRoutes = Routes::getAppRoutes();
+
+var_dump($yiiRoutes);
+</code></pre>
+### 使用2（获取单个module）：
+<pre><code>
+use xinnianq\yii2Routes\Routes;
+
+$yiiRoutes = Routes::getAppRoutes('gii');
 
 var_dump($yiiRoutes);
 </code></pre>

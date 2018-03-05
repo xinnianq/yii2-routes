@@ -1,7 +1,7 @@
 <?php
 /**
  * 获取所有路由
- * @author fengqiquan 2017-10-11
+ * @author xinnianq 2017-10-11
  */
 namespace xinnianq\yii2Routes;
 
