@@ -1,10 +1,10 @@
 # yii2-routes
 获取yii2项目所有路由，方便权限控制
 
-##安装说明
+## 安装说明
 php composer.phar require xinnianq/yii2-routes @dev
 
-###使用：
+### 使用：
 <pre><code>
 use xinnianq\yii2Routes\Routes;
 
@@ -12,7 +12,7 @@ $yiiRoutes = Routes::getAppRoutes();
 
 var_dump($yiiRoutes);
 </code></pre>
-###注意：
+### 注意：
 * 1、如果结果为空白，请查看runtime log ;看是否是哪个控制器代码写错了
 * 2、为了获取好看的描述 代码如下：
 <pre><code>
@@ -41,7 +41,7 @@ class NihaoController extends Controller
 }
 </code></pre>
 
-###返回结果：
+### 返回结果：
 <pre><code>
 array(2) {
   ["/nihao/"]=>
