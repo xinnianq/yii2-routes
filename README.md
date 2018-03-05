@@ -2,7 +2,7 @@
 获取yii2项目所有路由，方便权限控制
 
 ## 安装说明
-php composer.phar require xinnianq/yii2-routes @dev
+php composer.phar require --prefer-dist  xinnianq/yii2-routes
 
 ### 使用1(获取所有路由)：
 <pre><code>
